@@ -1,4 +1,5 @@
 import { connect } from 'cloudflare:sockets';
+let userID = '9fa96b97-1ca2-40fd-b344-2621a1192cde';
 const listProxy = [
     { path: '/akamai', proxy: '172.232.238.169' },
     { path: '/kr', proxy: '52.141.25.42'},
