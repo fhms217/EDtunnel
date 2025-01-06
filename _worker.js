@@ -9,6 +9,7 @@ const listProxy = [
     { path: '/incapsula', proxy: '45.60.186.91' },
     { path: '/ovh', proxy: '15.235.162.49' },
 ];
+let dohURL = 'https://cloudflare-dns.com/dns-query';
 let proxyIP;
 export default {
     async fetch(request, ctx) {
